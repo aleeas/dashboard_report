@@ -1,0 +1,28 @@
+.pagination > li > a:hover, .pagination > li.active > a, .pagination > .active > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+            color: #fff;
+            background-color: #7b7b7b;
+            border-color: #7b7b7b;
+        }
+.responsive-data-table{
+    width: 100% !important;
+}
+
+.custom-date-range input[type="text"]::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.custom-date-range input[type="text"]:-moz-placeholder { /* Firefox 18- */
+	color: #fff;  
+}
+
+.custom-date-range input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+	color: #fff;  
+}
+
+.custom-date-range input[type="text"]:-ms-input-placeholder {  
+	color: #fff;  
+}
+
+.padd0{
+	padding: 0;
+}
