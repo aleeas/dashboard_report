@@ -1264,14 +1264,14 @@
 		getDefaultFormat: function (type, field) {
 			if (type == "standard") {
 				if (field == 'input')
-					return 'yyyy-mm-dd hh:ii';
+					return 'dd-mm-yyyy hh:ii';
 				else
-					return 'yyyy-mm-dd hh:ii:ss';
+					return 'dd-mm-yyyy hh:ii:ss';
 			} else if (type == "php") {
 				if (field == 'input')
-					return 'Y-m-d H:i';
+					return 'd-m-Y H:i';
 				else
-					return 'Y-m-d H:i:s';
+					return 'd-m-Y H:i:s';
 			} else {
 				throw new Error("Invalid format type.");
 			}
@@ -1303,13 +1303,13 @@
 				return dateUTC;
 			}
 			if (/^\d{4}\-\d{1,2}\-\d{1,2}$/.test(date)) {
-				format = this.parseFormat('yyyy-mm-dd', type);
+				format = this.parseFormat('dd-mm-yyyy', type);
 			}
 			if (/^\d{4}\-\d{1,2}\-\d{1,2}[T ]\d{1,2}\:\d{1,2}$/.test(date)) {
-				format = this.parseFormat('yyyy-mm-dd hh:ii', type);
+				format = this.parseFormat('dd-mm-yyyy hh:ii', type);
 			}
 			if (/^\d{4}\-\d{1,2}\-\d{1,2}[T ]\d{1,2}\:\d{1,2}\:\d{1,2}[Z]{0,1}$/.test(date)) {
-				format = this.parseFormat('yyyy-mm-dd hh:ii:ss', type);
+				format = this.parseFormat('dd-mm-yyyy hh:ii:ss', type);
 			}
 			if (/^[-+]\d+[dmwy]([\s,]+[-+]\d+[dmwy])*$/.test(date)) {
 				var part_re = /([-+]\d+)([dmwy])/,
