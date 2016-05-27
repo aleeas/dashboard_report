@@ -125,6 +125,10 @@ h2.form-heading {
     color: #333;
 }
 
+.sticky-header .logo {
+    background: #fff;
+}
+
 .form-signin input[type="text"]::-webkit-input-placeholder, .form-signin input[type="password"]::-webkit-input-placeholder {
 	color: #fff;
 }
