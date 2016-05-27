@@ -67,6 +67,79 @@ body, .red-logo-bg {
     font-size: 30px;
     font-weight: 300;
 }
+.login-body {
+    background-color: #E41B13;
+}
+h2.form-heading {
+    background: #fff;
+    color: #E41B13;
+ 
+}
+h2.form-heading {
+   background: #fff;
+}
+.form-signin a, .registration, .login-body label {
+    color: #FFFFFF;
+}
+.registration a {
+    color: #F90A00;
+    background: #fff;
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+
+    background: #CA0800;
+    
+}
+.btn-success, .input-group-btn>.btn.btn-success {
+    background-color: #00A552;
+    border-color: #00A552;
+    color: #FFFFFF;
+}
+
+.registration a:hover {
+    color: #FFFFFF;
+    background: #F90A00;
+}
+
+.modal-header {
+    background: #CA0800;
+    border-bottom: 5px solid #730E0A;
+}
+.modal-header .x-close{
+	 color: #000;
+    font-size: 35px;
+    margin-top: -4px;
+}
+
+.form-signin p.label-p {
+    /* text-align: center; */
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.modal-body input[type="text"]#email-required {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.form-signin input[type="text"]::-webkit-input-placeholder, .form-signin input[type="password"]::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.form-signin input[type="text"]:-moz-placeholder, .form-signin input[type="password"]:-moz-placeholder { /* Firefox 18- */
+	color: #fff;  
+}
+
+.form-signin input[type="text"]::-moz-placeholder, .form-signin input[type="password"]::-moz-placeholder {  /* Firefox 19+ */
+	color: #fff;  
+}
+
+.form-signin input[type="text"]:-ms-input-placeholder, .form-signin input[type="password"]:-ms-input-placeholder {  
+	color: #fff;  
+}
 @media screen and (max-width: 640px){
 	.dataTables_wrapper .dataTables_length{
      float: left; 
