@@ -25,6 +25,7 @@
 
 .padd0{
 	padding: 0;
+
 }
 #date-range{
     float: left;
@@ -51,6 +52,6 @@
 	}
 	.dataTables_wrapper .dataTables_filter {
 		float: right;
-		text-align: right;
+		text-align:
 	}
 }
